@@ -1,7 +1,7 @@
-# Site Boilerplate
-> A complete site boilerplate for @andismith&#x27;s personal projects
+# WOTFH
+> band page
 
-[![Build Status](https://travis-ci.org/andismith/site-boilerplate.png?branch=master)](https://travis-ci.org/)
+[![Build Status](https://travis-ci.org/jnettome/wotfh.png?branch=master)](https://travis-ci.org/)
 Version 0.0.5
 
 ## Project Goal
@@ -13,8 +13,8 @@ This boilerplate requires Grunt `~0.4.0`
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide.
 
 ## Installation
-1. [Fork the repo](https://github.com/andismith/site-boilerplate/fork)
-1. `git clone https://github.com/andismith/site-boilerplate.git`
+1. [Fork the repo](https://github.com/jnettome/wotfh/fork)
+1. `git clone https://github.com/jnettome/wotfh.git`
 1. `cd site-boilerplate`
 1. Install project dependencies with `npm install`
 1. Make sure you have the Grunt command-line interface with `npm install -g grunt-cli`
@@ -74,4 +74,4 @@ You can edit files directly in the browser in Chrome Canary. Canary shows the di
 * Sitemap.xml using Assemble
 
 ### Issues and Feedback
-Found an issue, have an idea? [github.com/andismith/site-boilerplate/issues](https://github.com/andismith/site-boilerplate/issues)
+Found an issue, have an idea? [github.com/jnettome/wotfh/issues](https://github.com/jnettome/wotfh/issues)

@@ -1,12 +1,12 @@
 {
-    "title": "Site Boilerplate",
-    "repo": "andismith/site-boilerplate",
+    "title": "WOTFH",
+    "repo": "jnettome/wotfh",
     "author": {
-        "name": "Andi Smith",
-        "twitter": "@andismith"
+        "name": "João Netto",
+        "twitter": "@jnettome"
     },
     "meta": {
-        "description": "A complete site boilerplate for @andismith's personal projects",
-        "keywords": "Site, Boilerplate, Andi, Smith"
+        "description": "band page",
+        "keywords": "wofth"
     }
 }

@@ -3,7 +3,6 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-  <head>
     <meta charset="utf-8" />
     <title>{{ site.title }}</title>
 
@@ -28,17 +27,7 @@
   </head>
   <body>
 
-    <header class="site-header">
-      {{ site.title }}
-    </header>
-    <div class="container">
-
-      {{>body}}
-
-    </div>
-    <footer class="site-footer">
-
-    </footer>
+    {{>body}}
 
     <!--script data-src="main" src="js/require.js"></script-->
     {{#dev}}

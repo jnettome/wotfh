@@ -1,0 +1,106 @@
+$family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
+html, body {
+    height:100%;
+    min-height:100%;
+
+    font-family:$family;
+    font-weight:100;
+    letter-spacing:1px;
+}
+
+.fullscreen-cont {
+    display:block;
+    position:relative;
+    min-width:100%;
+    min-height:100%;
+}
+.fullscreen-img {
+    display:block;position:absolute;z-index:1;
+    min-width:100%;
+    min-height:100%;
+    background:transparent url('/img/bg.jpg') center center no-repeat;
+    background-size:cover;
+}
+.content {
+    display:block;
+    position:relative;
+    z-index:2;
+}
+
+
+// Reallyrocks
+header.reallyrocks {
+    padding-top: 20px;
+    opacity: 0.2;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+
+    &:hover {
+        opacity: 1;
+    }
+
+    h1.logo {
+        background: url(/img/logowhite.png) no-repeat;
+        width: 295px;
+        height: 54px;
+        text-indent: -5000px;
+    }
+
+    nav {
+        margin-top: 20px;
+        a {
+            color: #eee;
+        }
+    }
+}
+
+// Page
+.artist-page {
+    height: 100%;
+
+    .artist-name {
+        color: #fff;
+        font-family: $family;
+        font-weight: 100;
+
+        position: absolute;
+        bottom: 50px;
+        z-index: 5;
+
+        font-size: 72px;
+    }
+}
+
+.banner {
+    background: #fff;
+    padding: 40px auto;
+
+    h2 {
+        font-family: $family;
+        font-weight: 100;
+        font-size: 90px;
+    }
+}
+
+.release {
+    background:transparent url('/img/releasebg.jpg') center center no-repeat;
+    background-size:cover;
+
+    min-height: 458px;
+
+    .content {
+        color: #fff;
+
+        p {
+            &:first-child { padding-top: 140px; }
+
+            margin: auto 40px;
+            font-size: 24px;
+            line-height: 150%;
+        }
+    }
+}
