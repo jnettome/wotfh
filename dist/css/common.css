@@ -589,7 +589,7 @@ body {
   z-index: 1;
   min-width: 100%;
   min-height: 100%;
-  background: transparent url("/img/bg.jpg") center center no-repeat;
+  background: transparent url("img/bg.jpg") center center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -612,7 +612,7 @@ header.reallyrocks:hover {
 }
 
 header.reallyrocks h1.logo {
-  background: url(/img/logowhite.png) no-repeat;
+  background: url(img/logowhite.png) no-repeat;
   width: 295px;
   height: 54px;
   text-indent: -5000px;
@@ -658,7 +658,7 @@ header.reallyrocks nav a {
 }
 
 .release {
-  background: transparent url("/img/releasebg.jpg") center center no-repeat;
+  background: transparent url("img/releasebg.jpg") center center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   min-height: 458px;
