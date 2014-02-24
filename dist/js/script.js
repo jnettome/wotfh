@@ -2,7 +2,8 @@
 }(window.base = window.base || {}));
 
 $(function () {
-  $(window).on('resize load', function () {
+  $('.fullscreen-cont').css('height', $(window).innerHeight());
+  $(window).on('resize', function () {
     $('.fullscreen-cont').css('height', $(this).innerHeight());
   });
 });
