@@ -2,7 +2,7 @@ html,
 body {
   height: 100%;
   min-height: 100%;
-  font-family: "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "HelveticaNeue-UltraLight","Helvetica Neue UltraLight","Helvetica Neue",Arial,Helvetica,sans-serif;
   font-weight: 100;
   letter-spacing: 1px;
 }
@@ -63,7 +63,7 @@ header.reallyrocks nav a {
 
 .artist-page .artist-name {
   color: #fff;
-  font-family: "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "HelveticaNeue-UltraLight","Helvetica Neue UltraLight","Helvetica Neue",Arial,Helvetica,sans-serif;
   font-weight: 100;
   position: absolute;
   bottom: -30px;
@@ -79,7 +79,7 @@ header.reallyrocks nav a {
 }
 
 .banner h2 {
-  font-family: "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "HelveticaNeue-UltraLight","Helvetica Neue UltraLight","Helvetica Neue",Arial,Helvetica,sans-serif;
   font-weight: 100;
   font-size: 90px;
   margin-left: 40px;
@@ -129,4 +129,4 @@ header.reallyrocks nav a {
   overflow: hidden;
 }
 
-/*# sourceMappingURL=wofth.css.map */
+/*# sourceMappingURL=wofth.min.css.map */
